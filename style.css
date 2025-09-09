@@ -5,7 +5,7 @@ body {
 .hero {
     background-color: #1f2937;
     color: #F9FAF8;
-    padding: 24px 120px;
+    padding: 24px 140px;
     display: flex;
     flex-direction: column;
 }
@@ -39,6 +39,7 @@ nav {
 
 .hero-img {
     height: 300px;
+    flex: auto;
 }
 
 .hero-container {
@@ -55,17 +56,29 @@ nav {
 
 .btn {
     background-color: #3882F6;
-    border: 0;
     font-size: 18px;
-    border-radius: 12px;
     padding: 12px;
-    width: 180px;
     font-weight: bold;
 }
 
 .btn a {
     color: #F9FAF8;
+    white-space: nowrap;
 }
+
+.btn.book {
+    border: 0;
+    width: 180px;
+    border-radius: 12px;
+} 
+
+.btn.cta-btn {
+    border:#F9FAF8 solid 2px;
+    margin: auto 0;
+    padding: 6px 32px;
+    border-radius: 8px;
+}
+
 
 .info {
     text-align: center;
@@ -105,3 +118,50 @@ nav {
     font-weight: 900;
 }
 
+.quote {
+    background-color:#e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    padding: 120px 160px;
+}
+
+.quote-footer {
+    font-style: normal;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 48px;
+    margin-top: 12px;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    margin: 96px 140px;
+    padding: 48px 72px;
+    display: flex;
+    border-radius: 12px;
+    color:#F9FAF8;
+    justify-content: center;
+    gap: 72px;
+}
+
+.cta-t1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.cta-t2 {
+    color:#e5e7eb;
+    font-weight: 300;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color:#e5e7eb;
+    padding: 36px;
+    font-weight: 300;
+}
