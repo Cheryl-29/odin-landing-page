@@ -66,3 +66,42 @@ nav {
 .btn a {
     color: #F9FAF8;
 }
+
+.info {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 72px;
+}
+
+.card {
+    width: 160px;
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 96px;
+}
+
+.card-img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    object-position: center;
+    border:4px solid #3882F6;
+    border-radius: 12%;
+    margin-bottom: 8px;
+}
+
+.yoga {
+    object-position: left;
+}
+
+.info-header {
+    padding: 60px;
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 900;
+}
+
